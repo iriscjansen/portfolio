@@ -78,7 +78,7 @@ main h2{
 	font-weight:600;
 }
  
-main section{
+.work-grid{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1.5em
@@ -98,6 +98,11 @@ main section button {
 	font-weight:700;
 }
 
+main section button a{
+	color:white;
+	text-decoration: none;
+}
+
 footer{
 	background-color:black;  
 	padding:4em;
@@ -110,9 +115,6 @@ footer p{
 
 
 .foto_tekst{
-	display:grid;
-	grid-template-columns: 1fr;
-	grid-gap:1em;
 	max-width:60%;
 	margin:auto;
 }
@@ -121,10 +123,58 @@ footer p{
 .foto_tekst img{
 	width:30%;
 	height:auto;
+	margin-right:50em;
 }
 
 
+.foto_tekst ul{
+	list-style:square;
+	font-family:'avenir', sans-serif;
+	text-align: left;
+}
 
+
+/*contact pagina*/
+
+.contactMe{
+	max-width:60%;
+	margin:auto;
+	padding:15em;
+}
+
+.contactMe ul{
+	list-style:square;
+	font-family:'avenir', sans-serif;
+	text-align: left;
+}
+
+/*schoolwerk paginas*/
+
+.schoolwerk{
+	max-width:60%;
+	margin:auto;
+}
+
+.schoolwerk a{
+	text-decoration: none;
+	color:white;
+	font-weight:700;
+	text-align:left;
+}
+
+.schoolwerk ul{
+	list-style:square;
+	font-family:'avenir', sans-serif;
+	text-align: left;
+}
+
+.schoolwerk button{
+    display: block;
+    border:none;
+    margin: 5em 0;
+	padding: 1em 3.5em;    
+    background-color:black;
+}
 
 
 /*breakpoints*/
@@ -133,6 +183,9 @@ footer p{
 	display:grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1.5em
+	}
+	.foto_tekst img{
+	max-width:60%;
 	}
 }
 
