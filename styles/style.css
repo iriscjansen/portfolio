@@ -108,33 +108,24 @@ footer p{
 }
 /*about pagina*/
 
-.aboutMe section{
-	margin:5em;
+
+.foto_tekst{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-gap:1em;
+	max-width:60%;
+	margin:auto;
 }
 
-.aboutMe section>div:first-of-type {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
-.aboutMe ul{
-	margin:0;
-}
-
-.aboutMe img{
-	width:25%;
+.foto_tekst img{
+	width:30%;
 	height:auto;
 }
 
-/*contact pagina*/
 
-.contactMe section{
-	margin:0em 10em;
-}
 
-.contactMe h1{
-	text-align:left;
-}
+
 
 /*breakpoints*/
 @media (max-width:800px){
@@ -142,16 +133,6 @@ footer p{
 	display:grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1.5em
-	}
-}
-
-@media screen and (min-width: 500px){}
-	.aboutMe section>div:first-of-type {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-	}
-    .aboutMe p {
-    margin: 0;
 	}
 }
 
